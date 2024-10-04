@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className='bg-[#1C1C1C] p-10 mt-8'>
         
-    <div className='bg-[#1C1C1C] flex items-center justify-between p-12'>
+    <div className='bg-[#1C1C1C] grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 p-12'>
     <div>
         <h2 className='text-[#FFD232]'>CUSTOMER SERVICE</h2>
         <ul className='text-white flex flex-col gap-2 mt-3'>

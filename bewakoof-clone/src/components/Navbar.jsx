@@ -66,7 +66,7 @@ function Navbar() {
                     <img src={icons.winter_icon} className="w-8" alt="" />
                     <p>WINTER</p>
                   </Link>
-                  <Link to="/sneaker" className="flex items-center gap-1 mt-6" onClick={() => setVisible(false)}>
+                  <Link to="/sneakers" className="flex items-center gap-1 mt-6" onClick={() => setVisible(false)}>
                     <img src={icons.asneaker} className="w-8" alt="" />
                     <p>SNEAKERS</p>
                   </Link>
